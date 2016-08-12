@@ -1,0 +1,10 @@
+# exclude
+.htaccess
+*.psd
+*.jpg
+*.ai
+.DS_Store
+*.txt 
+p5.*
+# exceptions
+!README.txt
