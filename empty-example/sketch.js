@@ -1,14 +1,8 @@
-
-
-var x = 0;
-
-
-function setup() {
-	createCanvas(displayWidth, displayHeight);
-  background(100);  
-}
-
-function draw() {
-  ellipse(x, height/2, 20, 20);
-  x = x + 5;
+function setup(){
+	textSize(32);
+text("word", 10, 30);
+fill(0, 102, 153);
+text("word", 10, 60);
+fill(0, 102, 153, 51);
+text("word", 10, 90);
 }
