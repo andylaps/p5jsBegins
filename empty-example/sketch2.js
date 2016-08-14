@@ -27,10 +27,7 @@ function Thing(j) {
 	this.xSpeed = 1;
 	this.ySpeed = 1;
 	this.name = "thing "+j;
-	// textSize(32);
-	//  text("help me")
-	// // text("I am a Thing. My Speed is: " + round(this.ySpeed,1),50,50);
-	// fill(0,102,153);
+
 
 	this.move = function() {
 		this.x += random(-this.xSpeed, this.xSpeed);
